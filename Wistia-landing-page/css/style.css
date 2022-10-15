@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.woff");
+}
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../fonts/Roboto-Thin.woff");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+}
+
+body{
+    background-color: #1eafdf;
+    margin: 0 auto;
+    min-width:50%;
+    max-width:100%;
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 290px;
+    margin-top: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.button-login{
+    margin-top: 15px;
+    padding: 13px 15px 13px;
+    margin-right: 40px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.button-login:hover{
+    background-color: white;
+    color:  #1eafdf;
+}
+
+.corpo{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.titulos{
+    box-sizing: border-box;
+    display: inline-block;
+    flex-direction: column;
+    width: 810px;
+}
+
+#titulo{
+   color: #FFFF;
+   font-family: 'Roboto';
+   font-size: 50px;
+}
+
+#titulo-secundario{
+    margin-left: 220px;
+    width: 370px;
+}
+
+.sub-titulo{
+    opacity: 0.6;
+    color: white;
+    font-family: 'Roboto Light';
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 610px;
+}
+
+.inputs{
+    padding: 20px;
+    border-radius: 3px;
+    border: white;
+    width: 250px;
+    height: 25px;
+}
+.inputs::placeholder{
+    color: rgba(128, 128, 128, 0.628);
+}
+
+.inputs:focus{
+    outline: 2px outset rgba(24, 90, 211, 0.903);
+}
+
+.nome{
+    margin-bottom: 20px;
+}
+
+.login{
+    margin-bottom: 20px;
+}
+
+.direita{
+    margin-right: 25px;
+}
+
+.button-create{
+    height: 60px;
+    border-radius: 4px;
+    background-color: rgba(24, 90, 211, 0.903);
+    border: none;
+    color: white;
+    font-family: 'Roboto';
+    cursor: pointer;
+    font-size: 16px;
+    width: 610px;
+}
+
+.termos{
+    opacity: 0.6;
+    color: white;
+    font-family: 'Roboto Light';
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.termos a{
+    color: white;
+    font-family: 'Roboto Light';
+    
+}
+
