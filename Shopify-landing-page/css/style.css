@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'DejaVu';
+    src: url("../fonts/DejaVuSans.woff");
+}
+
+@font-face {
+    font-family: "Robotothin";
+    src: url("../fonts/Roboto-Thin.woff");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:100%;
+    min-width:690px;
+    max-width:1800%; 
+
+}
+
+.back{
+    width: 100%;
+    background-position: center center;
+    background: url('../img/fundo4.svg') no-repeat; 
+    background-position: top;  
+}
+
+main{
+
+}
+
+section{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width:100%;
+    min-width:600px;
+    max-width:1800%; 
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.logo{
+    width: 200px;  
+}
+
+.area1{
+    margin-top: 40px;
+}
+
+.area1 h1{
+    font-family: 'DejaVu';
+    font-size: 2.1em;
+    color: #FFF;
+}
+
+.area1 h2{
+    font-family: 'Robotothin';
+    margin-top: 40px;
+    font-size: 2.1em;
+    color: rgb(228, 228, 228);
+}
+
+.form{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.form input{
+    width: 440px;
+    height: 60px;
+    padding-left: 20px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding-top: 5px;
+    font-size: 1.4em;
+}
+
+.inp:focus{
+    outline: 2px outset  rgba(0, 0, 0, 0.484);
+}
+
+
+.form button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgb(52, 52, 52);
+    color: #fff;
+    font-family: 'DejaVu';
+    font-size: 1.0em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.start:hover{
+    background-color: rgb(86, 86, 86); 
+    cursor: pointer;
+}
+
+.area1 h3{
+    font-family: 'Robotothin';
+    color: rgb(228, 228, 228);
+    font-size: 0.9em;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+.area2{
+    margin-top: 60px;
+}
+
+.div_img{
+    display: inline-block;
+    padding-left: 80px;
+}
+
+.img_corpo{
+    width: 800px;
+}
+
+.area3{
+    margin-top: 120px;
+    max-width: 100%;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 40px;
+}
+
+.card1{
+margin-left: 100px;
+}
+
+.card2{
+    margin-left: 190px;
+}
+
+.card3{
+    margin-left: 190px;
+}
+
+.card{
+    width: 15%;
+    max-width:1800%; 
+    margin-right: 30px;
+    word-wrap:break-word;
+}
+
+.icons{
+    width: 100px;
+    height: 60px;
+}
+
+.icons_2{
+    height: 63px;
+}
+
+.icons_3{
+    height: 60px;
+}
+
+.card h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'DejaVu';
+    line-height: 20px;
+
+}
+
+.card p{
+    font-family: 'DejaVu';
+    line-height: 20px;
+    font-size: 1.2em;
+    color: rgb(120, 120, 120);
+}
+
+#rodape{
+    display: inline-block;
+    margin-left: 650px;
+}
+
+#rodape img{
+    width: 200px;
+    height: 100px;
+}
